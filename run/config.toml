@@ -1,0 +1,23 @@
+network_dir = "network"
+network_listen_address = "0.0.0.0"
+network_libp2p_port = 1234
+network_target_peers = 3
+network_boot_nodes = []
+network_libp2p_nodes = []
+network_private = false
+network_disable_discovery = false
+
+db_dir = "db"
+
+rpc_enabled = true
+rpc_listen_address = "127.0.0.1:5678"
+
+log_config_file = "log_config"
+
+blockchain_rpc_endpoint = ""
+log_contract_address = ""
+
+# [sync]
+# auto_sync_disabled = false
+# max_sync_files = 8
+# find_peer_timeout = "30s"

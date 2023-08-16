@@ -1,0 +1,9 @@
+[package]
+name = "nrhv_seal"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+ethereum-types = "0.14"
+nrhv_spec = {path = "../spec"}
+tiny-keccak = { version = "2.0.2", features = ["keccak"] }

@@ -1,0 +1,7 @@
+[submodule "neurahive-client"]
+	path = neurahive-client
+	url = https://github.com/Conflux-Chain/neurahive-client.git
+[submodule "neurahive-contracts"]
+	path = neurahive-contracts
+	branch = compiled
+	url = https://github.com/Conflux-Chain/neurahive-contracts.git
